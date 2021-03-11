@@ -30,7 +30,7 @@ const generateWarriorTypes = () => {
        
             chosenWarriorTypesDiv.innerHTML +=`
             <article class="column">
-                <img src="images/warriors/${e.currentTarget.dataset.image}">
+                <img src="../images/warriors/${e.currentTarget.dataset.image}">
             </article>
             `;
         } )
