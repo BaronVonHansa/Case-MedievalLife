@@ -13,7 +13,7 @@ const generateWarriorTypes = () => {
                 <div class="has-background-info">
                     <h3>${WarriorObject.type}</h3>
                     <p>${WarriorObject.weapon}</p>
-                    <button data-image="${WarriorObject.image}>Legg til</button>
+                    <button data-image="${WarriorObject.image}">Legg til</button>
                 
                 </div>
             
