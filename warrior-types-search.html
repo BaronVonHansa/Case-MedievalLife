@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finn din krigar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script type="module" src="scripts/index/warrior-types-search.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="is-size-1 has-text-centered">Krigartypar søk</h1>
+            <nav>
+                <ul>
+                    <li><a href="warrior-types.html">Krigartypar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="columns is multiline mt-5">
+            <section class="column is-12">
+                <div class="field">
+                    <label>Våpen</label>
+                    <div class="control">
+                        <input type="text"
+                        class="input" id="search-txt"
+                        placeholder="...øks, sverd, twitter">
+                    </div>
+                    <button class="is-fullwidth is primary" id="search-btn">Søk</button>
+                </div>
+            </section>
+
+            <section class="column">
+                <div id="warrior-types-div" class="columns is-multiline"></div>
+            </section>
+
+        </main>
+    </div>
+</body>
+</html>
